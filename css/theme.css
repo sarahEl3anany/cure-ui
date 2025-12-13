@@ -1,0 +1,102 @@
+@import '../font/georgia.css';
+@import '../font/montserrat.css';
+:root {
+    /* font family */
+    --font-Montserrat: 'Montserrat' !important;
+    --font-Montserrat-medium: 'Montserrat-Medium' !important;
+    --font-Montserrat-bold: 'Montserrat-Bold' !important;
+    --font-georgia: 'Georgia' !important;
+
+      /* theme colors */
+    --primary : var(--primary-500) !important;
+    --primary-50: #E8EFF8 !important;
+    --primary-100: #B6CDE9 !important;
+    --primary-200: #93B4DE !important;
+    --primary-300: #437DC6 !important;
+    --primary-500: #145DB8 !important;
+    --primary-600: #1255A7 !important;
+    --primary-700: #0E4283 !important;
+    --primary-800: #0B3365 !important;
+    --primary-900: #08274D !important;
+    --primary-color: #145DB8 !important;
+    --primary-hover-color: #145DB8 !important;
+    --checkbox-icon-size: 17px !important;
+    --checkbox-width: 17px !important;
+    --checkbox-height: 17px !important;
+    --checkbox-border-radius: 4px !important;
+    --checkbox-focus-ring-width: 2px !important;
+    --form-field-border-color: #145DB8 !important;
+    --button-primary-active-background: #145DB8 !important;
+
+    --secondary : var(--secondary-500) !important;
+    --secondary-50: #E6E8EA !important;
+    --secondary-100: #B2B7BE !important;
+    --secondary-200: #8C949E !important;
+    --secondary-300: #586372 !important;
+    --secondary-400: #374556 !important;
+    --secondary-500: #05162C !important;
+    --secondary-600: #051428 !important;
+    --secondary-700: #04101F !important;
+    --secondary-800: #030C18 !important;
+    --secondary-900: #020912 !important;
+
+    --neutral : var(--neutral-500) !important;
+    --neutral-50: #F5F6F7 !important;
+    --neutral-100: #DFE2E5 !important;
+    --neutral-200: #D0D4D8 !important;
+    --neutral-300: #BBC1C7 !important;
+    --neutral-400: #ADB5BC !important;
+    --neutral-500: #99A2AB !important;
+    --neutral-600: #8B939C !important;
+    --neutral-700: #6D7379 !important;
+    --neutral-800: #54595E !important;
+    --neutral-900: #404448 !important;
+
+    --red: var(--red-500) !important;
+    --red-50: #FFEDED !important;
+    --red-100: #FEC7C8 !important;
+    --red-200: #FEACAE !important;
+    --red-300: #FD8688 !important;
+    --red-400: #FD6F71 !important;
+    --red-500: #fC4B4E !important;
+    --red-600: #E54447 !important;
+    --red-700: #B33537 !important;
+    --red-800: #8B292B !important;
+    --red-900: #6A2021 !important;
+
+    --yellow: var(--yellow-500) !important;
+    --yellow-50: #FFF6E9 !important;
+    --yellow-100: #FFE4BC !important;
+    --yellow-200: #FFD79B !important;
+    --yellow-300: #FFC46E !important;
+    --yellow-400: #FFB951 !important;
+    --yellow-500: #FFA726 !important;
+    --yellow-600: #E89823 !important;
+    --yellow-700: #B5771B !important;
+    --yellow-800: #8C5C15 !important;
+    --yellow-900: #6B4610 !important;
+
+    --blue: var(--blue-500) !important;
+    --blue-50: #E8F4FC !important;
+    --blue-100: #B6DDF6 !important;
+    --blue-200: #93CCF2 !important;
+    --blue-300: #62B5EC !important;
+    --blue-400: #43A6E9 !important;
+    --blue-500: #1490E3 !important;
+    --blue-600: #1283CF !important;
+    --blue-700: #0E66A1 !important;
+    --blue-800: #0B4F7D !important;
+    --blue-900: #083C5F !important;
+
+    --green: var(--green-500) !important;
+    --green-50: #EDF7EE !important;
+    --green-100: #C8E6C9 !important;
+    --green-200: #ADDAAF !important;
+    --green-300: #87C98A !important;
+    --green-400: #70BF73 !important;
+    --green-500: #4CAF50 !important;
+    --green-600: #459F49 !important;
+    --green-700: #367C39 !important;
+    --green-800: #2A602C !important;
+    --green-900: #204A22 !important;
+}
