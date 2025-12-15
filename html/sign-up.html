@@ -129,18 +129,4 @@
     </div>
 </body>
 <script src="../js/countries.js"></script>
-<script>
-  const select = document.getElementById('countrySelect')
-debugger
-  countries.forEach(country => {
-    const option = document.createElement('option')
-    option.value = country.code
-    option.textContent = `${country.flag} ${country.code}`
-    select.appendChild(option)
-  })
-
-  // default country (Egypt)
-  select.value = '+20'
-</script>
-
 </html>

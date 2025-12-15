@@ -100,3 +100,12 @@ const countries = [
   { name: "Vietnam", code: "+84", flag: "🇻🇳" },
   { name: "Yemen", code: "+967", flag: "🇾🇪" },
 ]
+const select = document.getElementById('countrySelect')
+countries.forEach(country => {
+  const option = document.createElement('option')
+  option.value = country.code
+  option.textContent = `${country.flag} ${country.code}`
+  select.appendChild(option)
+})
+
+select.value = '+20'
